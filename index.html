@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sistem Informasi Manajemen Rantai Pasokan</title>
+</head>
+<body>
+    <header>
+        <h1>Sistem Informasi Manajemen Rantai Pasokan</h1>
+    </header>
+    <main>
+        <section id="pemasok-section">
+            <h2>Pemasok</h2>
+            <form id="pemasok-form">
+                <input type="text" id="pemasok-nama" placeholder="Nama Pemasok" required>
+                <button type="submit">Tambah Pemasok</button>
+            </form>
+            <ul id="pemasok-list"></ul>
+        </section>
+
+        <section id="produk-section">
+            <h2>Produk</h2>
+            <form id="produk-form">
+                <input type="text" id="produk-nama" placeholder="Nama Produk" required>
+                <button type="submit">Tambah Produk</button>
+            </form>
+            <ul id="produk-list"></ul>
+        </section>
+
+        <section id="pesanan-section">
+            <h2>Pesanan</h2>
+            <form id="pesanan-form">
+                <input type="text" id="pesanan-nama" placeholder="Nama Pesanan" required>
+                <button type="submit">Buat Pesanan</button>
+            </form>
+            <ul id="pesanan-list"></ul>
+            <section id="gudang-section">
+                <h2>Tambah Gudang</h2>
+                <form id="gudang-form">
+                    <input type="text" id="gudang-nama" placeholder="Nama Gudang" required>
+                    <button type="submit">Tambah Gudang</button>
+                </form>
+                <ul id="gudang-list"></ul>    
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
